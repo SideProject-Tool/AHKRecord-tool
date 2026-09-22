@@ -1,0 +1,8 @@
+# 用户数据
+recordings/
+ahk-replay.log
+greeting.txt
+
+# 系统文件
+*.png
+.DS_Store
