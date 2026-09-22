@@ -235,7 +235,7 @@ ReplayLast() {
 
 PickAndReplay() {
     global RECORD_DIR
-    file := FileSelectFile(1, RECORD_DIR, "选择录制文件", "录制文件 (*.ahkr)")
+    file := FileSelect(1, RECORD_DIR, "选择录制文件", "录制文件 (*.ahkr)")
     if (file = "")
         return
     evs := LoadRecordingFile(file)
